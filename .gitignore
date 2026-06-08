@@ -1,0 +1,33 @@
+# Lean/Lake build artifacts
+.lake/
+references/.lake/
+
+# Local editor and assistant state
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local/private configuration and credentials
+.env
+.env.*
+*.local
+*.secret
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Paper/proof drafts and TeX build artifacts
+proof.*
+*.aux
+*.bbl
+*.blg
+*.log
+*.nav
+*.out
+*.synctex*
+*.pdf

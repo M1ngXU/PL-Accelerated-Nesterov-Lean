@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use PL-Accelerated-Nesterov-Lean, please cite it as below."
+type: software
+title: "PL-Accelerated-Nesterov-Lean: Lean Formalization of Accelerated Nesterov Convergence under a Local Polyak-Lojasiewicz Condition"
+version: "0.1.0"
+license: MIT
+authors:
+  - family-names: "Obreiter"
+    given-names: "Max"
+  - family-names: "Steinbrecher"
+    given-names: "Tobias"
+  - family-names: "Foerster"
+    given-names: "Robert"
+repository-code: "https://github.com/M1ngXU/PL-Accelerated-Nesterov-Lean"
+url: "https://tobotis.github.io/PL-Accelerated-Nesterov/"
+abstract: "Lean 4 formalization of accelerated Nesterov convergence under a local Polyak-Lojasiewicz condition near a smooth minimizer manifold."

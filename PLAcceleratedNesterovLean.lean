@@ -1,0 +1,46 @@
+-- Core definitions, Nesterov scheme, and embedded manifold geometry
+import PLAcceleratedNesterovLean.Core.Defs
+import PLAcceleratedNesterovLean.Core.NesterovScheme
+import PLAcceleratedNesterovLean.Core.EmbeddedManifold
+
+-- PL → Morse-Bott theory (Rebjock & Boumal)
+import PLAcceleratedNesterovLean.MorseBott.Defs
+import PLAcceleratedNesterovLean.MorseBott.HessianPL
+import PLAcceleratedNesterovLean.MorseBott.GradAlign
+import PLAcceleratedNesterovLean.MorseBott.IFTProof
+import PLAcceleratedNesterovLean.MorseBott.Submanifold
+import PLAcceleratedNesterovLean.MorseBott.PLImpliesMB
+
+-- Tubular neighborhood infrastructure
+import PLAcceleratedNesterovLean.MorseBott.TubularProjection
+import PLAcceleratedNesterovLean.MorseBott.NormalHessianBound
+import PLAcceleratedNesterovLean.MorseBott.BridgeDefs
+import PLAcceleratedNesterovLean.MorseBott.Bridge
+
+-- Convergence proof (Lemmas 1–5 and assembly)
+import PLAcceleratedNesterovLean.Convergence.LocalGeometry.Main
+import PLAcceleratedNesterovLean.Convergence.LocalGeometry.HessianBound
+import PLAcceleratedNesterovLean.Convergence.LocalGeometry.SegmentEstimate
+import PLAcceleratedNesterovLean.Convergence.Coercivity.Main
+import PLAcceleratedNesterovLean.Convergence.MotionError.Main
+import PLAcceleratedNesterovLean.Convergence.LyapunovContraction.Main
+import PLAcceleratedNesterovLean.Convergence.LyapunovContraction.GenMain
+import PLAcceleratedNesterovLean.Convergence.LyapunovContraction.AuxVar
+import PLAcceleratedNesterovLean.Convergence.LyapunovContraction.FlatCaseHelper
+import PLAcceleratedNesterovLean.Convergence.LyapunovContraction.FlatCaseArithmetic
+import PLAcceleratedNesterovLean.Convergence.CurvAbsorb.Algebraic
+import PLAcceleratedNesterovLean.Convergence.CurvAbsorb.Assembly
+
+-- Convergence infrastructure and rate extraction
+import PLAcceleratedNesterovLean.Core.NesterovSeqGen
+import PLAcceleratedNesterovLean.Convergence.LocalArgument
+import PLAcceleratedNesterovLean.Convergence.GenLocalArgument
+import PLAcceleratedNesterovLean.Convergence.Bootstrap.Main
+import PLAcceleratedNesterovLean.Convergence.StateContraction.AuxVarRecursion
+import PLAcceleratedNesterovLean.Convergence.PhaseSchedule
+import PLAcceleratedNesterovLean.Convergence.RateArithmetic
+import PLAcceleratedNesterovLean.Convergence.ConvergenceHelpers
+import PLAcceleratedNesterovLean.Convergence.NesterovConvergence
+
+-- Main theorem
+import PLAcceleratedNesterovLean.MainTheorem
